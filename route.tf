@@ -20,7 +20,7 @@ resource "aws_route_table" "private" {
   ]
 
   tags = {
-    Name = "private"
+   "Name" = "private"
   }
 }
 
@@ -46,7 +46,7 @@ resource "aws_route_table" "public" {
   ]
 
   tags = {
-    Name = "public"
+    "Name" = "public"
   }
 }
 
